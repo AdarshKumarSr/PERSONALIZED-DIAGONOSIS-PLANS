@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.mic {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(34, 33, 37);
+    margin: 15%;
+    border-radius: 15px;
+}
+
+span {
+    font-size: 60px;
+}
+
+.text_field[type=text] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+.container {
+    padding: 15% 10% 13% 25%;
+}
+
+.input-container {
+    display: flex;
+    
+
+}
+.submit {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+    background-color: #1b3131;
+}

@@ -1,0 +1,41 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+@keyframes bubble {
+    0%, 100% { border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%; }
+    50% { border-radius: 30% 70% 67% 33% / 70% 70% 30% 30%; }
+  }
+  .bubble-border {
+    animation: bubble 2s infinite linear;
+    border: 4px solid black;
+  }
+.tempmain{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.card{
+  height:300px;
+  width: 250px;
+  margin:25px 25px;
+  background-color: #393e46;
+  border-radius: 23px;
+  color:#f2f2f2;
+}
+.cont:hover>h4{
+  font-weight: bolder;
+}
+.cont{
+  margin-left: 25px;
+}
